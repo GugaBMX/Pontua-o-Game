@@ -1,0 +1,13 @@
+{
+  "name": "placar-jogos",
+  "version": "1.0.0",
+  "description": "Placar de jogos (UNO, Baralho, Domin\u00f3) com servidor local e JSON storage",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2"
+  }
+}

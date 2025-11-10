@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
+  <rect rx="12" width="200" height="80" fill="#6c5ce7"/>
+  <g transform="translate(22,12)">
+    <rect width="38" height="56" rx="6" fill="#fff" opacity="0.12"/>
+    <rect x="44" width="38" height="56" rx="6" fill="#fff" opacity="0.08"/>
+    <circle cx="19" cy="18" r="3" fill="#fff"/>
+    <circle cx="19" cy="38" r="3" fill="#fff"/>
+    <circle cx="63" cy="18" r="3" fill="#fff"/>
+    <circle cx="63" cy="38" r="3" fill="#fff"/>
+  </g>
+  <text x="140" y="46" font-family="Arial" font-weight="700" text-anchor="middle" fill="#072033" font-size="28">DOMINÓ</text>
+</svg>

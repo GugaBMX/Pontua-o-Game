@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
+  <rect rx="12" width="200" height="80" fill="#0ea5a4"/>
+  <g transform="translate(20,12)" fill="#072033">
+    <rect width="56" height="56" rx="8" fill="#fff" opacity="0.12"/>
+    <path d="M90 10c-6 0-10 8-10 8s4 8 10 8 10-8 10-8-4-8-10-8z" fill="#fff"/>
+  </g>
+  <text x="100" y="46" font-family="Arial" font-weight="700" text-anchor="middle" fill="#072033" font-size="28">BARALHO</text>
+</svg>

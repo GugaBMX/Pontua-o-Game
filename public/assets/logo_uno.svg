@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#ff5f6d"/><stop offset="1" stop-color="#ffc371"/></linearGradient></defs>
+  <rect rx="12" width="200" height="80" fill="url(#g)"/>
+  <text x="100" y="46" font-family="Arial" font-weight="700" text-anchor="middle" fill="#072033" font-size="36">UNO</text>
+</svg>

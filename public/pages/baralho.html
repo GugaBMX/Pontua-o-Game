@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Baralho — Placar</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg game-page">
+  <header class="site-header small">
+    <a class="back" href="../index.html">← Voltar</a>
+    <h1 class="title">Baralho</h1>
+    <p class="subtitle">Placar para partidas de baralho.</p>
+  </header>
+
+  <main class="container">
+    <section class="controls panel">
+      <input id="playerName" placeholder="Nome do jogador" />
+      <button id="addPlayer" class="primary">Adicionar</button>
+      <label class="label-inline">Pts por vitória:
+        <input id="pointsPerWin" type="number" value="1" min="0" />
+      </label>
+      <button id="resetAll" class="danger">Resetar tudo</button>
+    </section>
+
+    <section id="list" class="player-list" aria-live="polite"></section>
+
+    <section class="table-wrap">
+      <h3>Ranking (tabela)</h3>
+      <table id="rankingTable" class="ranking-table" aria-label="Tabela de ranking"></table>
+    </section>
+  </main>
+
+  <footer class="footer small">
+    <p>Dados salvos no servidor JSON (ou localStorage se servidor não disponível).</p>
+  </footer>
+
+<script>
+  window.PAGE_GAME = 'baralho';
+</script>
+<script src="../js/main.js"></script>
+</body>
+</html>
